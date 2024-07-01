@@ -6,6 +6,9 @@
 body{
     background-color: rgb(242, 242, 242);
 }
+
+/* navbar section */
+
 .nav-container{
     padding: 0 8px;
     background-color: white;
@@ -13,7 +16,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
 }
 .search-button{
     height: 40px;
@@ -52,6 +54,9 @@ body{
     color: #000000;
     font-size: 16px;
 }
+
+/* photosec1 */
+
 .photosec-1{
     background-color: white;
     height: 130px;
@@ -65,6 +70,9 @@ body{
 .img{
     text-align: center;
 }
+
+/* slider section */
+
 #slider{
     overflow: hidden;
 }
@@ -80,6 +88,9 @@ body{
     float: left;
     width: 20%;
 }
+
+/* responsive section */
+
 @keyframes slider {
     0% {
         left: 0;
@@ -109,6 +120,9 @@ body{
         left: -400%;
     }
 }
+
+/* page1 */
+
 .best-of-e{
     background-color: white;
     margin-top: 10px;
@@ -123,6 +137,9 @@ body{
     font-weight: 550;
     margin-left: 15px;
 }
+
+/* photosection */
+
 .photosec-2{
     height: 236px;
     background-color: white;
@@ -148,6 +165,9 @@ body{
 .bold{
     font-weight: 550;
 }
+
+/* page3 section */
+
 .photosec-3{
     background-color: white;
     height: 550px;
@@ -188,6 +208,9 @@ body{
 .main{
     display: flex;
 }
+
+/* big side image */
+
 .big-image{
     margin-top: 25px;
     margin-left: 10px;
@@ -198,6 +221,9 @@ body{
     background-size: contain;
     background-position: center;
 }
+
+/* footer section */
+
 .footer-text{
     display: flex;
     justify-content: space-evenly;
@@ -217,6 +243,9 @@ body{
     font-size: 12px;
     font-weight: 500;
 }
+
+/* copyright section */
+
 .copyright-sec{
     height: 70px;
     background-color: #212121;
